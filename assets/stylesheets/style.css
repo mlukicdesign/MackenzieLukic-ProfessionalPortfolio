@@ -8,7 +8,7 @@
 /* Hero Section */
 
 .hero-section {
-    background-image: url("/linesbackground.jpg");
+    background-image: url(/assets/images/Project2.jpg);
     height: 100vh;
     object-fit: contain;
     object-position: center;
@@ -19,6 +19,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hero-section img {
+    position: absolute;
+    top: 0;
 }
 
 
