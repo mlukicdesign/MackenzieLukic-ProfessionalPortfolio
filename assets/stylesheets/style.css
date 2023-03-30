@@ -8,7 +8,7 @@
 /* Hero Section */
 
 .hero-section {
-    background-image: url(/linesbackground.jpg);
+    background-image: url("/linesbackground.jpg");
     height: 100vh;
     object-fit: contain;
     object-position: center;
