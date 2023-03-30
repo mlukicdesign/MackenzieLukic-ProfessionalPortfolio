@@ -1,13 +1,19 @@
 
 * {
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
+
+/* Hero Section */
 
 .hero-section {
     background-image: url(/assets/images/v03-lines-32.jpg);
     height: 100vh;
     object-fit: contain;
     object-position: center;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     background-attachment: fixed;
     background-position: center;
@@ -28,6 +34,7 @@ header {
     font-family: 'Space Grotesk', medium;
     font-size: 24px;
     color: white;
+    text-transform: uppercase;
 }
 
 .nav-links li {
@@ -48,7 +55,8 @@ header {
 
 
 .hero-content {
-    margin: 10% 5% 5% 0%;
+    max-width: 80%;
+    padding-top: 10%;
     animation-duration: 0.5s;
     animation-name: animate-fade;
     animation-delay: 0.5s;
@@ -68,13 +76,8 @@ header {
 }
 
 
-
-
-
 .hero-explore {
-    position: relative;
-    text-align: left;
-    top: 20%;
+    padding-top: 80px
 }
 
 .hero-explore a {
@@ -83,9 +86,13 @@ header {
     text-decoration: none;
 }
 
-/* Insert Arrow Below 'Explore */
-.hero-exploreL::after {
+.hero-explore a:hover {
+    color: grey;
 }
+
+
+
+
 
 
 /* Hero Media Queries */
@@ -113,6 +120,7 @@ header {
 
 }
 
+/* Body Styling */
 
 .about-me {
     background-color: black;
@@ -129,9 +137,23 @@ header {
 
 }
 
+.cta-projects {
+    color: white;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+}
+
+
+.cta-projects:hover {
+    cursor: pointer;
+    text-decoration: underline 0.15em rgb(255, 255, 255);
+    transition: text-decoration-color 600ms;
+}
 
 
 /* Projects */
+
+
 .projects {
     background-color: black;
     margin-bottom: 200px;
@@ -225,15 +247,7 @@ header {
         flex-direction: column;
 }
 
-.cta-button {
-    padding: 15px 50px 15px 50px;
-    color: #fff;
-    text-transform: uppercase;
-    border-color: #fff;
-    border-style: solid;
-    border-radius: 30px;
-    background-color: black;
-}
+
 
 
 .cta-button:hover {
