@@ -8,7 +8,7 @@
 /* Hero Section */
 
 .hero-section {
-    background-image: url(assets/images/linesbackground.jpg);
+    background-image: url(/assets/images/linesbackground.jpg);
     height: 100vh;
     object-fit: contain;
     object-position: center;
@@ -148,6 +148,7 @@ header {
     cursor: pointer;
     text-decoration: underline 0.15em rgb(255, 255, 255);
     transition: text-decoration-color 600ms;
+    
 }
 
 
