@@ -8,22 +8,17 @@
 /* Hero Section */
 
 .hero-section {
-    background-image: url(/linesbackground.jpg);
+    background-image: url("/assets/images/linesbackground.jpg");
+    background-color: black;
     height: 100vh;
     object-fit: contain;
     object-position: center;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.hero-section img {
-    position: absolute;
-    top: 0;
 }
 
 
